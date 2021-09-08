@@ -1,0 +1,18 @@
+#breadcrumb {
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+#breadcrumb > * {
+    margin-right: 10px;
+    font-size: 15px;
+}
+
+.breadcrumb-active {
+    background: #f2f2f2;
+    padding: 4px 8px;
+    display: flex;
+    align-items: center;
+}
